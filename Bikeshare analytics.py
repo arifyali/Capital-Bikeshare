@@ -1,10 +1,11 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[21]:
 
 import pandas
 q1_bikeshare = pandas.read_csv("2015-Q1-Trips-History-Data.csv")
+q1_bikeshare.columns.values
 
 
 # In[20]:
